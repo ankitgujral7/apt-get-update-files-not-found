@@ -10,6 +10,26 @@ To remove this error
 Follow the steps..
 
 * ### Run the update command.
-'''
+```
 sudo apt-get update
-'''
+```
+
+* ## See the files which were causing errors now we are supposed remove them.
+So,now go the /etc/apt/sources.list.d with this command.
+
+```
+cd /etc/apt/sources.list.d/
+```
+
+* ## now list the files inside this folder using this command.
+```
+ls
+```
+
+* ## Remove the list which is causing error using this.
+```
+sudo rm -rf <list_name>
+```
+
+###tip: Use sudo with rm carefully it can goof your installs. :)
+
