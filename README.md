@@ -31,5 +31,5 @@ ls
 sudo rm -rf <list_name>
 ```
 
-### tip: Use sudo with rm carefully it can goof your installs. :)
+#### Tip: Use "sudo" with "rm" carefully it can goof up your installs. :)
 
