@@ -21,7 +21,7 @@ So,now go the /etc/apt/sources.list.d with this command.
 cd /etc/apt/sources.list.d/
 ```
 
-* ## now list the files inside this folder using this command.
+* ## Now list the files inside this folder using this command.
 ```
 ls
 ```
