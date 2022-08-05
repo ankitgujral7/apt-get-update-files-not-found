@@ -14,19 +14,19 @@ Follow the steps..
 sudo apt-get update
 ```
 
-* ## See the files which were causing errors now we are supposed remove them.
+* ### See the files which were causing errors now we are supposed remove them.
 So,now go the /etc/apt/sources.list.d with this command.
 
 ```
 cd /etc/apt/sources.list.d/
 ```
 
-* ## Now list the files inside this folder using this command.
+* ### Now list the files inside this folder using this command.
 ```
 ls
 ```
 
-* ## Remove the list which is causing error using this.
+* ### Remove the list which is causing error using this.
 ```
 sudo rm -rf <list_name>
 ```
